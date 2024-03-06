@@ -51,8 +51,8 @@ function App() {
         {/* <Alert alert={{msg:"this is an alert message",type:"success"}}/> */}
         <div className="container my-3">
           <Routes>
-            <Route exact path="/" element={<TextForm heading='Enter the text to analyze' darkmode={mode} showAlert={showAlert} />}/>
-            <Route exact path="/about" element={<About/>}/>
+            <Route exact path="/" element={<TextForm heading='Try Text Utils- word counter | character counter | lower case to upper case  | upper case to lower case | copy text' darkmode={mode} showAlert={showAlert} />}/>
+            <Route exact path="/about" element={<About darkmode={mode}/>}/>
           </Routes>
         </div>
       </Router>
